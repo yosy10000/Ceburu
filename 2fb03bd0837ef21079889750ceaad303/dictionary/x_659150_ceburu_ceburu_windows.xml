@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="e4a6cf2083b6761079889750ceaad3dd" extends="sys_import_set_row" label="Ceburu Windows" max_length="40" name="x_659150_ceburu_ceburu_windows" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=os_version" label="os_version" max_length="40" name="u_os_version" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=ip_address" label="ip_address" max_length="40" name="u_ip_address" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=name" label="name" max_length="40" name="u_name" type="string"/>
+    </element>
+</database>

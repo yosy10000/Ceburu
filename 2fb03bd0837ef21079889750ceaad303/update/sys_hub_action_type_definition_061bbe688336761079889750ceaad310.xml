@@ -1,0 +1,1359 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_status/>
+        <action_template/>
+        <active>true</active>
+        <annotation/>
+        <attributes>{labelCacheCleanUpExecuted=true}</attributes>
+        <authored_on_release_version>27800</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <flow_priority/>
+        <ih_action>false</ih_action>
+        <internal_name>get_ceburu</internal_name>
+        <label_cache>[{"name":"{{step[f1648f09-9e66-4a7b-a269-421445cba345].response}}","label":"step➛Script step➛response","type":"step","ref":"","reference_display":"","base_type":"json","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"JSON","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"json","uiUniqueId":"06ba15bf-49bf-47a4-9d88-fbe656d0dcea"}}]</label_cache>
+        <master_snapshot>55ddf2208376761079889750ceaad33a</master_snapshot>
+        <master_snapshot_digest/>
+        <name>Get Ceburu</name>
+        <natlang/>
+        <outputs/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <state>published</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-29 12:48:12</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>061bbe688336761079889750ceaad310</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>Get Ceburu</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Ceburu" source="x_659150_ceburu">2fb03bd0837ef21079889750ceaad303</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ceburu">2fb03bd0837ef21079889750ceaad303</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_061bbe688336761079889750ceaad310</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-29 13:34:51</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=061bbe688336761079889750ceaad310"/>
+    <sys_variable_value action="delete_multiple" query="document_key=061bbe688336761079889750ceaad310"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>061bbe688336761079889750ceaad310</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-29 12:49:43</sys_created_on>
+        <sys_id>147bfae88336761079889750ceaad3ec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-29 12:49:43</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Don't Treat as Error">407bfae88336761079889750ceaad3db</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>061bbe688336761079889750ceaad310</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-29 12:49:43</sys_created_on>
+        <sys_id>587bfae88336761079889750ceaad3ec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-29 12:49:43</sys_updated_on>
+        <value>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"serializationFormat":"JSON","complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4adfb7bc-9d67-498d-88d0-8d6c3d584fed\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}}}</value>
+        <variable display_value="Action Status">c07bfae88336761079889750ceaad3c8</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=061bbe688336761079889750ceaad310"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>respone</field>
+        <id>061bbe688336761079889750ceaad310</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-29 13:00:09</sys_created_on>
+        <sys_id>81ddb2208376761079889750ceaad3fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-29 13:00:09</sys_updated_on>
+        <table>var__m_sys_hub_action_output_061bbe688336761079889750ceaad310</table>
+        <value>{{step[f1648f09-9e66-4a7b-a269-421445cba345].response}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>response</field>
+        <id>061bbe688336761079889750ceaad310</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-29 13:34:50</sys_created_on>
+        <sys_id>8dc5c3ec8376761079889750ceaad3f3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-29 13:34:50</sys_updated_on>
+        <table>var__m_sys_hub_action_output_061bbe688336761079889750ceaad310</table>
+        <value>{{step[f1648f09-9e66-4a7b-a269-421445cba345].response}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__action_status__</field>
+        <id>061bbe688336761079889750ceaad310</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-29 12:49:43</sys_created_on>
+        <sys_id>507bfae88336761079889750ceaad3ec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-29 12:49:43</sys_updated_on>
+        <table>var__m_sys_hub_action_output_061bbe688336761079889750ceaad310</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__dont_treat_as_error__</field>
+        <id>061bbe688336761079889750ceaad310</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-29 12:49:43</sys_created_on>
+        <sys_id>1c7bfae88336761079889750ceaad3eb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-29 12:49:43</sys_updated_on>
+        <table>var__m_sys_hub_action_output_061bbe688336761079889750ceaad310</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="delete_multiple" query="action=061bbe688336761079889750ceaad310^sys_idNOT IN047bfae88336761079889750ceaad3ac"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Get Ceburu">061bbe688336761079889750ceaad310</action>
+        <cid>f1648f09-9e66-4a7b-a269-421445cba345</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-29 12:49:42</sys_created_on>
+        <sys_id>047bfae88336761079889750ceaad3ac</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Ceburu">2fb03bd0837ef21079889750ceaad303</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-29 12:59:33</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=047bfae88336761079889750ceaad3ac"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>047bfae88336761079889750ceaad3ac</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-29 12:49:42</sys_created_on>
+        <sys_id>047bfae88336761079889750ceaad3c3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-29 12:49:42</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>047bfae88336761079889750ceaad3ac</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-29 12:49:42</sys_created_on>
+        <sys_id>447bfae88336761079889750ceaad3c4</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-29 12:59:33</sys_updated_on>
+        <value>(function execute(inputs, outputs) {&#13;
+    outputs.response = {&#13;
+        "count": 1, &#13;
+        "next": null, &#13;
+        "previous": null, &#13;
+        "results": [ &#13;
+            { &#13;
+            "id": 1195012, &#13;
+            "total_rows": 31, &#13;
+            "netmap": { &#13;
+                "id": 49483,&#13;
+                "host": "CEBURULABPROBE", &#13;
+                "hostip": "192.168.30.10", &#13;
+                "privIPList": null, &#13;
+                "macaddress": "Unknown", &#13;
+                "status": true, &#13;
+                "publicip": "12.233.5.243", &#13;
+                "flag": 2, &#13;
+                "vendor": "VMware, Inc.", &#13;
+                "entrytime": "2025-11-03T10:36:49.062939Z", &#13;
+                "lastupdated": "2026-01-12T05:06:36.034682Z", &#13;
+                "os": "Windows", &#13;
+                "notifystatus": false, &#13;
+                "snmpflag": true, &#13;
+                "patchflag": false, &#13;
+                "communicationstatus": true, &#13;
+                "subnetlocation": "Lab", &#13;
+                "downintervaltime": null, &#13;
+                "downfrequencystatus": false, &#13;
+                "ceburuAgentFrequency": null, &#13;
+                "ceburuAgentStatus": true, &#13;
+                "ceburuAgentRepair": false, &#13;
+                "ceburuAgentRepairReport": null, &#13;
+                "lastReachTime": "2026-01-12T17:26:48.122305Z", &#13;
+                "certificatestatus": true, &#13;
+                "serviceintervaltime": null,&#13;
+            }}]};&#13;
+})(inputs, outputs);&#13;
+</value>
+        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_047bfae88336761079889750ceaad3ac^id=047bfae88336761079889750ceaad3ac"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=047bfae88336761079889750ceaad3ac"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=047bfae88336761079889750ceaad3ac"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=047bfae88336761079889750ceaad3ac"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=047bfae88336761079889750ceaad3ac^sys_idNOT IN48bdbeec8336761079889750ceaad37c"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=json,uiTypeLabel=JSON,uiUniqueId=06ba15bf-49bf-47a4-9d88-fbe656d0dcea</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>response</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="JSON">json</internal_type>
+        <label>response</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Script step">047bfae88336761079889750ceaad3ac</model>
+        <model_id>047bfae88336761079889750ceaad3ac</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_047bfae88336761079889750ceaad3ac</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-29 12:59:32</sys_created_on>
+        <sys_id>48bdbeec8336761079889750ceaad37c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Ceburu">2fb03bd0837ef21079889750ceaad303</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-29 12:59:32</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=047bfae88336761079889750ceaad3ac"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>response</element>
+        <help/>
+        <hint/>
+        <label>response</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_047bfae88336761079889750ceaad3ac</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-29 12:59:33</sys_created_on>
+        <sys_id>c8bdbeec8336761079889750ceaad382</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Ceburu" source="x_659150_ceburu">2fb03bd0837ef21079889750ceaad303</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ceburu">2fb03bd0837ef21079889750ceaad303</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-29 12:59:33</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_action_input action="delete_multiple" query="model=061bbe688336761079889750ceaad310"/>
+    <sys_hub_action_output action="delete_multiple" query="model=061bbe688336761079889750ceaad310^sys_idNOT IN407bfae88336761079889750ceaad3db,c07bfae88336761079889750ceaad3c8,f8c5c3ec8376761079889750ceaad3cf"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=9715e182-7cd5-417d-8cd0-113a121a430d,visible_in_ui=false</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>true</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__dont_treat_as_error__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Don't Treat as Error</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Get Ceburu">061bbe688336761079889750ceaad310</model>
+        <model_id>061bbe688336761079889750ceaad310</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_061bbe688336761079889750ceaad310</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-29 12:49:43</sys_created_on>
+        <sys_id>407bfae88336761079889750ceaad3db</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Ceburu">2fb03bd0837ef21079889750ceaad303</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-29 13:34:49</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=407bfae88336761079889750ceaad3db"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=407bfae88336761079889750ceaad3db"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,co_type_name=FDACTIONSTATUS,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=5644790d-6012-450f-9b56-f2796f1f3b17</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__action_status__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Action Status</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Get Ceburu">061bbe688336761079889750ceaad310</model>
+        <model_id>061bbe688336761079889750ceaad310</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_061bbe688336761079889750ceaad310</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-29 12:49:42</sys_created_on>
+        <sys_id>c07bfae88336761079889750ceaad3c8</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Ceburu">2fb03bd0837ef21079889750ceaad303</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-29 13:00:09</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=c07bfae88336761079889750ceaad3c8"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=c07bfae88336761079889750ceaad3c8"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=json,uiTypeLabel=JSON,uiUniqueId=7b9624c2-aee2-4f6b-880f-ddadf9ee4ec8</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>response</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="JSON">json</internal_type>
+        <label>response</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Get Ceburu">061bbe688336761079889750ceaad310</model>
+        <model_id>061bbe688336761079889750ceaad310</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_061bbe688336761079889750ceaad310</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-29 13:34:49</sys_created_on>
+        <sys_id>f8c5c3ec8376761079889750ceaad3cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Ceburu">2fb03bd0837ef21079889750ceaad303</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-29 13:34:49</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=f8c5c3ec8376761079889750ceaad3cf"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=f8c5c3ec8376761079889750ceaad3cf"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=061bbe688336761079889750ceaad310"/>
+    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=061bbe688336761079889750ceaad310^sys_idNOT IN5c7bfae88336761079889750ceaad3ee"/>
+    <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
+        <action_type_id display_value="Get Ceburu">061bbe688336761079889750ceaad310</action_type_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-29 12:49:43</sys_created_on>
+        <sys_id>5c7bfae88336761079889750ceaad3ee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-29 12:49:43</sys_updated_on>
+    </sys_hub_action_status_metadata>
+    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=5c7bfae88336761079889750ceaad3ee"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_061bbe688336761079889750ceaad310"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>response</element>
+        <help/>
+        <hint/>
+        <label>response</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_061bbe688336761079889750ceaad310</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-29 13:34:49</sys_created_on>
+        <sys_id>09c5c3ec8376761079889750ceaad3d5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Ceburu" source="x_659150_ceburu">2fb03bd0837ef21079889750ceaad303</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ceburu">2fb03bd0837ef21079889750ceaad303</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-29 13:34:49</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__dont_treat_as_error__</element>
+        <help/>
+        <hint/>
+        <label>Don't Treat as Error</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_061bbe688336761079889750ceaad310</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-29 12:49:43</sys_created_on>
+        <sys_id>5c7bfae88336761079889750ceaad3e4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Ceburu" source="x_659150_ceburu">2fb03bd0837ef21079889750ceaad303</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ceburu">2fb03bd0837ef21079889750ceaad303</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-29 12:49:43</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__action_status__</element>
+        <help/>
+        <hint/>
+        <label>Action Status</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_061bbe688336761079889750ceaad310</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-29 12:49:43</sys_created_on>
+        <sys_id>c07bfae88336761079889750ceaad3d9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Ceburu" source="x_659150_ceburu">2fb03bd0837ef21079889750ceaad303</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ceburu">2fb03bd0837ef21079889750ceaad303</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-29 12:49:43</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_061bbe688336761079889750ceaad310"/>
+    <sys_hub_action_plan action="delete_multiple" query="action_id=061bbe688336761079889750ceaad310^sys_idNOT INe1ddf2208376761079889750ceaad3df"/>
+    <sys_hub_action_plan action="INSERT_OR_UPDATE">
+        <action_id display_value="Get Ceburu">061bbe688336761079889750ceaad310</action_id>
+        <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"e1ddf2208376761079889750ceaad3df","name":"plan","plan_signature":null}}</plan>
+        <snapshot>19c507ec8376761079889750ceaad390</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-29 13:00:11</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e1ddf2208376761079889750ceaad3df</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-29 13:34:51</sys_updated_on>
+    </sys_hub_action_plan>
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_status/>
+        <action_template/>
+        <annotation/>
+        <attributes>{labelCacheCleanUpExecuted=true}</attributes>
+        <authored_on_release_version>27800</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <flow_priority/>
+        <internal_name>get_ceburu</internal_name>
+        <label_cache>[{"name":"{{step[f1648f09-9e66-4a7b-a269-421445cba345].response}}","label":"step➛Script step➛response","type":"step","ref":"","reference_display":"","base_type":"json","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"JSON","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"json","uiUniqueId":"06ba15bf-49bf-47a4-9d88-fbe656d0dcea"}}]</label_cache>
+        <master>true</master>
+        <name>Get Ceburu</name>
+        <natlang/>
+        <outputs/>
+        <outputs/>
+        <parent_action display_value="Get Ceburu">061bbe688336761079889750ceaad310</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-29 13:00:10</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>55ddf2208376761079889750ceaad33a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Ceburu">2fb03bd0837ef21079889750ceaad303</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-29 13:00:10</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=55ddf2208376761079889750ceaad33a"/>
+    <sys_variable_value action="delete_multiple" query="document_key=55ddf2208376761079889750ceaad33a"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>55ddf2208376761079889750ceaad33a</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-29 13:00:11</sys_created_on>
+        <sys_id>6dddf2208376761079889750ceaad37d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-29 13:00:11</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Don't Treat as Error">ddddf2208376761079889750ceaad36d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>55ddf2208376761079889750ceaad33a</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-29 13:00:11</sys_created_on>
+        <sys_id>a1ddf2208376761079889750ceaad37e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-29 13:00:11</sys_updated_on>
+        <value>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"serializationFormat":"JSON","complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4adfb7bc-9d67-498d-88d0-8d6c3d584fed\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}}}</value>
+        <variable display_value="Action Status">99ddf2208376761079889750ceaad367</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=55ddf2208376761079889750ceaad33a"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>respone</field>
+        <id>55ddf2208376761079889750ceaad33a</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-29 13:00:11</sys_created_on>
+        <sys_id>a9ddf2208376761079889750ceaad37d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-29 13:00:11</sys_updated_on>
+        <table>var__m_sys_hub_action_output_55ddf2208376761079889750ceaad33a</table>
+        <value>{{step[f1648f09-9e66-4a7b-a269-421445cba345].response}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>response</field>
+        <id>55ddf2208376761079889750ceaad33a</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-29 13:34:51</sys_created_on>
+        <sys_id>51c507ec8376761079889750ceaad38e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-29 13:34:51</sys_updated_on>
+        <table>var__m_sys_hub_action_output_55ddf2208376761079889750ceaad33a</table>
+        <value>{{step[f1648f09-9e66-4a7b-a269-421445cba345].response}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__action_status__</field>
+        <id>55ddf2208376761079889750ceaad33a</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-29 13:00:11</sys_created_on>
+        <sys_id>65ddf2208376761079889750ceaad37d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-29 13:00:11</sys_updated_on>
+        <table>var__m_sys_hub_action_output_55ddf2208376761079889750ceaad33a</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__dont_treat_as_error__</field>
+        <id>55ddf2208376761079889750ceaad33a</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-29 13:00:11</sys_created_on>
+        <sys_id>21ddf2208376761079889750ceaad37d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-29 13:00:11</sys_updated_on>
+        <table>var__m_sys_hub_action_output_55ddf2208376761079889750ceaad33a</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="delete_multiple" query="action=55ddf2208376761079889750ceaad33a^sys_idNOT INd5ddf2208376761079889750ceaad345"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Get Ceburu">55ddf2208376761079889750ceaad33a</action>
+        <cid>f1648f09-9e66-4a7b-a269-421445cba345</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-29 13:00:10</sys_created_on>
+        <sys_id>d5ddf2208376761079889750ceaad345</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Ceburu">2fb03bd0837ef21079889750ceaad303</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-29 13:00:10</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=d5ddf2208376761079889750ceaad345"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>d5ddf2208376761079889750ceaad345</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-29 13:00:10</sys_created_on>
+        <sys_id>11ddf2208376761079889750ceaad35c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-29 13:00:10</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>d5ddf2208376761079889750ceaad345</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-29 13:00:10</sys_created_on>
+        <sys_id>55ddf2208376761079889750ceaad35c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-29 13:00:10</sys_updated_on>
+        <value>(function execute(inputs, outputs) {&#13;
+    outputs.response = {&#13;
+        "count": 1, &#13;
+        "next": null, &#13;
+        "previous": null, &#13;
+        "results": [ &#13;
+            { &#13;
+            "id": 1195012, &#13;
+            "total_rows": 31, &#13;
+            "netmap": { &#13;
+                "id": 49483,&#13;
+                "host": "CEBURULABPROBE", &#13;
+                "hostip": "192.168.30.10", &#13;
+                "privIPList": null, &#13;
+                "macaddress": "Unknown", &#13;
+                "status": true, &#13;
+                "publicip": "12.233.5.243", &#13;
+                "flag": 2, &#13;
+                "vendor": "VMware, Inc.", &#13;
+                "entrytime": "2025-11-03T10:36:49.062939Z", &#13;
+                "lastupdated": "2026-01-12T05:06:36.034682Z", &#13;
+                "os": "Windows", &#13;
+                "notifystatus": false, &#13;
+                "snmpflag": true, &#13;
+                "patchflag": false, &#13;
+                "communicationstatus": true, &#13;
+                "subnetlocation": "Lab", &#13;
+                "downintervaltime": null, &#13;
+                "downfrequencystatus": false, &#13;
+                "ceburuAgentFrequency": null, &#13;
+                "ceburuAgentStatus": true, &#13;
+                "ceburuAgentRepair": false, &#13;
+                "ceburuAgentRepairReport": null, &#13;
+                "lastReachTime": "2026-01-12T17:26:48.122305Z", &#13;
+                "certificatestatus": true, &#13;
+                "serviceintervaltime": null,&#13;
+            }}]};&#13;
+})(inputs, outputs);&#13;
+</value>
+        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_d5ddf2208376761079889750ceaad345^id=d5ddf2208376761079889750ceaad345"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=d5ddf2208376761079889750ceaad345"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=d5ddf2208376761079889750ceaad345"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=d5ddf2208376761079889750ceaad345"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=d5ddf2208376761079889750ceaad345^sys_idNOT INd1ddf2208376761079889750ceaad34d"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=json,uiTypeLabel=JSON,uiUniqueId=06ba15bf-49bf-47a4-9d88-fbe656d0dcea</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>response</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="JSON">json</internal_type>
+        <label>response</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Script step">d5ddf2208376761079889750ceaad345</model>
+        <model_id>d5ddf2208376761079889750ceaad345</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_d5ddf2208376761079889750ceaad345</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-29 13:00:10</sys_created_on>
+        <sys_id>d1ddf2208376761079889750ceaad34d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Ceburu">2fb03bd0837ef21079889750ceaad303</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-29 13:00:10</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=d5ddf2208376761079889750ceaad345"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>response</element>
+        <help/>
+        <hint/>
+        <label>response</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_d5ddf2208376761079889750ceaad345</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-29 13:00:10</sys_created_on>
+        <sys_id>51ddf2208376761079889750ceaad352</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Ceburu" source="x_659150_ceburu">2fb03bd0837ef21079889750ceaad303</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ceburu">2fb03bd0837ef21079889750ceaad303</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-29 13:00:10</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_action_input action="delete_multiple" query="model=55ddf2208376761079889750ceaad33a"/>
+    <sys_hub_action_output action="delete_multiple" query="model=55ddf2208376761079889750ceaad33a^sys_idNOT IN99ddf2208376761079889750ceaad367,ddc507ec8376761079889750ceaad360,ddddf2208376761079889750ceaad36d"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,co_type_name=FDACTIONSTATUS,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=5644790d-6012-450f-9b56-f2796f1f3b17</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__action_status__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Action Status</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Get Ceburu">55ddf2208376761079889750ceaad33a</model>
+        <model_id>55ddf2208376761079889750ceaad33a</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_55ddf2208376761079889750ceaad33a</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-29 13:00:10</sys_created_on>
+        <sys_id>99ddf2208376761079889750ceaad367</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Ceburu">2fb03bd0837ef21079889750ceaad303</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-29 13:00:10</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=99ddf2208376761079889750ceaad367"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=99ddf2208376761079889750ceaad367"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=json,uiTypeLabel=JSON,uiUniqueId=7b9624c2-aee2-4f6b-880f-ddadf9ee4ec8</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>response</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="JSON">json</internal_type>
+        <label>response</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Get Ceburu">55ddf2208376761079889750ceaad33a</model>
+        <model_id>55ddf2208376761079889750ceaad33a</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_55ddf2208376761079889750ceaad33a</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-29 13:34:50</sys_created_on>
+        <sys_id>ddc507ec8376761079889750ceaad360</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Ceburu">2fb03bd0837ef21079889750ceaad303</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-29 13:34:50</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=ddc507ec8376761079889750ceaad360"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=ddc507ec8376761079889750ceaad360"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=9715e182-7cd5-417d-8cd0-113a121a430d,visible_in_ui=false</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>true</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__dont_treat_as_error__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Don't Treat as Error</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Get Ceburu">55ddf2208376761079889750ceaad33a</model>
+        <model_id>55ddf2208376761079889750ceaad33a</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_55ddf2208376761079889750ceaad33a</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-29 13:00:10</sys_created_on>
+        <sys_id>ddddf2208376761079889750ceaad36d</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Ceburu">2fb03bd0837ef21079889750ceaad303</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-29 13:34:50</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=ddddf2208376761079889750ceaad36d"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=ddddf2208376761079889750ceaad36d"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=55ddf2208376761079889750ceaad33a"/>
+    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=55ddf2208376761079889750ceaad33a^sys_idNOT INe9ddf2208376761079889750ceaad380"/>
+    <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
+        <action_type_id display_value="Get Ceburu">55ddf2208376761079889750ceaad33a</action_type_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-29 13:00:11</sys_created_on>
+        <sys_id>e9ddf2208376761079889750ceaad380</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-29 13:00:11</sys_updated_on>
+    </sys_hub_action_status_metadata>
+    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=e9ddf2208376761079889750ceaad380"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_55ddf2208376761079889750ceaad33a"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>response</element>
+        <help/>
+        <hint/>
+        <label>response</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_55ddf2208376761079889750ceaad33a</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-29 13:34:50</sys_created_on>
+        <sys_id>1dc507ec8376761079889750ceaad366</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Ceburu" source="x_659150_ceburu">2fb03bd0837ef21079889750ceaad303</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ceburu">2fb03bd0837ef21079889750ceaad303</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-29 13:34:50</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__action_status__</element>
+        <help/>
+        <hint/>
+        <label>Action Status</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_55ddf2208376761079889750ceaad33a</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-29 13:00:10</sys_created_on>
+        <sys_id>d9ddf2208376761079889750ceaad36c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Ceburu" source="x_659150_ceburu">2fb03bd0837ef21079889750ceaad303</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ceburu">2fb03bd0837ef21079889750ceaad303</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-29 13:00:10</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__dont_treat_as_error__</element>
+        <help/>
+        <hint/>
+        <label>Don't Treat as Error</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_55ddf2208376761079889750ceaad33a</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-29 13:00:10</sys_created_on>
+        <sys_id>d9ddf2208376761079889750ceaad375</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Ceburu" source="x_659150_ceburu">2fb03bd0837ef21079889750ceaad303</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Ceburu">2fb03bd0837ef21079889750ceaad303</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-29 13:00:10</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_55ddf2208376761079889750ceaad33a"/>
+    <sys_hub_action_type_definition action="UPDATE">
+        <sys_id>061bbe688336761079889750ceaad310</sys_id>
+        <latest_snapshot>55ddf2208376761079889750ceaad33a</latest_snapshot>
+        <compiler_build>glide-yokohama-12-18-2024__patch10-11-20-2025_12-04-2025_1911.zip</compiler_build>
+    </sys_hub_action_type_definition>
+</record_update>
